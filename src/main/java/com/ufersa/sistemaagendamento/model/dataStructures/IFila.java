@@ -1,4 +1,4 @@
-package com.ufersa.sistemaagendamento.model.dataStructures.fila;
+package com.ufersa.sistemaagendamento.model.dataStructures;
 
 public interface IFila<T> {
     void add(T number); // fila => adiociona no fim

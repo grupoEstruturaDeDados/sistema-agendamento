@@ -1,10 +1,8 @@
 package com.ufersa.sistemaagendamento.service.services;
 
 import com.ufersa.sistemaagendamento.infrastructure.interfaces.IScheduleRepository;
-import com.ufersa.sistemaagendamento.model.dataStructures.fila.IFila;
-import com.ufersa.sistemaagendamento.model.dataStructures.fila.ILista;
-import com.ufersa.sistemaagendamento.model.dataStructures.fila.ListaEncadeada;
-import com.ufersa.sistemaagendamento.model.dataStructures.fila.MinhaFilaVetor;
+import com.ufersa.sistemaagendamento.model.dataStructures.IFila;
+import com.ufersa.sistemaagendamento.model.dataStructures.MinhaFilaVetor;
 import com.ufersa.sistemaagendamento.model.entities.AvailableTimes;
 import com.ufersa.sistemaagendamento.model.entities.Schedule;
 import com.ufersa.sistemaagendamento.model.entities.User;
@@ -14,7 +12,6 @@ import com.ufersa.sistemaagendamento.service.interfaces.IScheduleService;
 import com.ufersa.sistemaagendamento.service.interfaces.IUserService;
 import org.springframework.stereotype.Service;
 
-import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 

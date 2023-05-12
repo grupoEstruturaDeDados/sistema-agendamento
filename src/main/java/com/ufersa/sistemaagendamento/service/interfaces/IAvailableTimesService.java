@@ -1,6 +1,5 @@
 package com.ufersa.sistemaagendamento.service.interfaces;
 
-import com.ufersa.sistemaagendamento.model.dataStructures.fila.ILista;
 import com.ufersa.sistemaagendamento.model.entities.AvailableTimes;
 
 import java.text.ParseException;

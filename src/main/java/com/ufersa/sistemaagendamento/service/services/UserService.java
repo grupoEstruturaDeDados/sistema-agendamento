@@ -1,8 +1,8 @@
 package com.ufersa.sistemaagendamento.service.services;
 
 import com.ufersa.sistemaagendamento.infrastructure.interfaces.IUserRepository;
-import com.ufersa.sistemaagendamento.model.dataStructures.fila.IPilha;
-import com.ufersa.sistemaagendamento.model.dataStructures.fila.PilhaLista;
+import com.ufersa.sistemaagendamento.model.dataStructures.IPilha;
+import com.ufersa.sistemaagendamento.model.dataStructures.PilhaLista;
 import com.ufersa.sistemaagendamento.model.entities.User;
 import com.ufersa.sistemaagendamento.model.requests.UserRequest;
 import com.ufersa.sistemaagendamento.model.responses.UserResponse;

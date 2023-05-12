@@ -1,4 +1,4 @@
-package com.ufersa.sistemaagendamento.model.dataStructures.fila;
+package com.ufersa.sistemaagendamento.model.dataStructures;
 
 import java.util.EmptyStackException;
 

@@ -1,8 +1,8 @@
 package com.ufersa.sistemaagendamento.service.services;
 
 import com.ufersa.sistemaagendamento.infrastructure.interfaces.IAvailableTimesRepository;
-import com.ufersa.sistemaagendamento.model.dataStructures.fila.ILista;
-import com.ufersa.sistemaagendamento.model.dataStructures.fila.ListaEncadeada;
+import com.ufersa.sistemaagendamento.model.dataStructures.ILista;
+import com.ufersa.sistemaagendamento.model.dataStructures.ListaEncadeada;
 import com.ufersa.sistemaagendamento.model.entities.AvailableTimes;
 import com.ufersa.sistemaagendamento.service.interfaces.IAvailableTimesService;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 @Service
 public class AvailableTimesService implements IAvailableTimesService {
