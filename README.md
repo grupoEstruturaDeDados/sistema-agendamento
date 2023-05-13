@@ -7,7 +7,7 @@ Gabriela de Oliveira,
 Lucas Rock,
 Wilgner Elanio
 
-Demonstração funcionalidades: https://youtu.be/OHfwwEOgXtI
+Demonstração funcionalidades: https://youtu.be/3V45OSdm04s
 
 - Lista Encadeada ✅
 - Pilha ✅
